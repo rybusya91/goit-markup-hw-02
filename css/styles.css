@@ -1,7 +1,7 @@
 :root {
   /* fonts */
-  --main-font: 'Raleway', sans-serif;
-  --secondary-font: 'Roboto', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* text colors */
   --primary-color: #212121;
@@ -15,7 +15,7 @@
 
 .body {
   font-family: var(--main-font);
-  background: #e5e5e5;
+  background: #f5f4fa;
   color: var(--primary-color);
 }
 
@@ -28,7 +28,6 @@
 }
 
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 12);
@@ -49,7 +48,6 @@
 
 .header-link-current,
 .header-link-current {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -89,7 +87,7 @@
 }
 
 /* section */
-.grey-style {
+.grey-style-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -98,17 +96,29 @@
   text-transform: uppercase;
   color: var(--text-color);
 }
+
+.grey-style {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  background-color: var(--bg-cl);
+}
+
 .btn:hover,
 .btn:focus {
-  background-color: var(--accent-color);
+  background-color: #188ce8;
   color: var(--text-color);
 }
 .btn:active {
-  background-color: #188ce8;
+  background-color: var(--accent-color);
 }
+
 .btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -127,8 +137,6 @@
 }
 
 .content-tx {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -136,8 +144,6 @@
   color: var(--secondary-color);
 }
 .content-tl-second {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -146,28 +152,22 @@
   color: var(--primary-color);
 }
 
-.button:active {
-  color: var(--text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .button-one:active {
   color: var(--text-color);
 }
-
 .button {
   border: none;
-  background: #f5f4fa;
 }
 
 /* section */
 .btn-small:hover,
 .btn-small:focus {
-  background-color: var(--accent-color);
+  background-color: #188ce8;
   color: var(--text-color);
+}
+
+.btn-small:active {
+  background-color: var(--accent-color);
 }
 .btn-small {
   font-family: inherit;
@@ -180,13 +180,10 @@
   border: none;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
 .content-title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -194,8 +191,6 @@
   color: var(--primary-color);
 }
 .content-text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -203,8 +198,6 @@
   color: var(--secondary-color);
 }
 .content-tl-thre {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
