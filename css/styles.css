@@ -15,7 +15,7 @@
 
 .body {
   font-family: var(--main-font);
-  background: #f5f4fa;
+  background: ;
   color: var(--primary-color);
 }
 
@@ -71,10 +71,9 @@
 .logo {
   color: #000;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26)
+  line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
 
@@ -116,13 +115,13 @@
 .btn:active {
   background-color: var(--accent-color);
 }
-
+/* accent color #2196f3  */
 .btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  background-color: #188ce8;
+  background-color: #2196f3;
   color: var(--text-color);
   border: none;
 }
@@ -142,6 +141,9 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+.cont-section {
+  background-color: #f5f4fa;
 }
 .content-tl-second {
   font-weight: 700;
@@ -171,7 +173,6 @@
 }
 .btn-small {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -222,7 +223,6 @@
 .footer-logo {
   color: var(--text-color);
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -239,7 +239,6 @@
   color: var(--text-color);
 }
 .foot-grey-style {
-  font-style: normal;
   background-color: var(--bg-cl);
   font-weight: 400;
   font-size: 14px;
